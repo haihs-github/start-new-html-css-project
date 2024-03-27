@@ -1,0 +1,42 @@
+.red{
+	border: solid 1px red;
+}
+
+.green{
+	border: solid 1px green;
+}
+
+.yellow{
+	border: solid 1px yellow;
+}
+
+.text-cl-white{
+	color: white;
+}
+
+.text-cl-black{
+	color: #333;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
