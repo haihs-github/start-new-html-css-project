@@ -11,32 +11,28 @@
 }
 
 .text-cl-white{
-	color: white;
+	color: white!important;
 }
 
 .text-cl-black{
-	color: #333;
+	color: #333!important;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.text-cl-red{
+	color: #ad171c!important;
 }
-body {
-	line-height: 1;
+
+.bg-red-theme{
+	background-color: #ad171c!important;
 }
-ol, ul {
-	list-style: none;
+.bg-gray-theme{
+	background-color: #fcfcfc;
 }
-blockquote, q {
-	quotes: none;
+
+.hover-opacity:hover{
+	opacity: 0.8;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.hover-cursor-pointer:hover{
+	cursor: pointer;
 }
